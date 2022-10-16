@@ -5,17 +5,17 @@ def happy_new_year
     puts i
     i -= 1
   end
-  puts "Happy New Year!"
+  puts 'Happy New Year!'
 end
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
 def fizzbuzz(num)
   if num % 3 == 0 && num % 5 == 0
-    "FizzBuzz"
+    'FizzBuzz'
   elsif num % 3 == 0
-    "Fizz"
+    'Fizz'
   elsif num % 5 == 0
-    "Buzz"
+    'Buzz'
   else
     num
   end
@@ -30,5 +30,5 @@ end
 
 def reverse_string(str)
   # your code here
-  str.chars.reduce { |x, y| y + x } 
+  str.chars.reduce { |x, y| y + x }
 end
